@@ -10,7 +10,7 @@ import { FormsModule } from '@angular/forms';
   declarations: [InicioComponent, SaludoComponent],
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,
     InicioRoutingModule
   ]
 })

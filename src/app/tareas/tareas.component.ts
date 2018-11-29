@@ -2,8 +2,12 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'kc-tareas',
-  templateUrl: './tareas.component.html',
-  styleUrls: ['./tareas.component.css']
+  template: `
+    <div class="row">
+      <kc-control-tareas class="col"></kc-control-tareas>
+    </div>
+  `,
+  styles: []
 })
 export class TareasComponent implements OnInit {
 
